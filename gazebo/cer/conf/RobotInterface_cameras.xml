@@ -64,7 +64,7 @@
     <device name="wrapper_ros_left" type="frameGrabber_nws_ros">
         <param name="nodeName">/wrapper_ros_left</param>
         <param name="imageTopicName">/camera_left</param>
-        <param name="cameraInfoTopicName">/camera_info</param>
+        <param name="cameraInfoTopicName">/camera_left/camera_info</param>
         <param name="frameId">head_leopard_left</param>
 
         <action phase="startup" level="10" type="attach">
@@ -76,7 +76,7 @@
     <device name="wrapper_ros_right" type="frameGrabber_nws_ros">
         <param name="nodeName">/wrapper_ros_right</param>
         <param name="imageTopicName">/camera_right</param>
-        <param name="cameraInfoTopicName">/camera_info</param>
+        <param name="cameraInfoTopicName">/camera_right/camera_info</param>
         <param name="frameId">head_leopard_right</param>
 
         <action phase="startup" level="10" type="attach">
@@ -88,7 +88,7 @@
     <device name="wrapper_ros_full" type="frameGrabber_nws_ros">
         <param name="nodeName">/wrapper_ros_full</param>
         <param name="imageTopicName">/camera_full</param>
-        <param name="cameraInfoTopicName">/camera_info</param>
+        <param name="cameraInfoTopicName">/camera_full/camera_info</param>
         <param name="frameId">head_leopard_cyclopic</param>
 
         <action phase="startup" level="10" type="attach">
