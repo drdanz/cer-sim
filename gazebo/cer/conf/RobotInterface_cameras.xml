@@ -85,6 +85,7 @@
         <action phase="shutdown" level="5" type="detach" />
     </device>
 
+<!--
     <device name="wrapper_ros_full" type="frameGrabber_nws_ros">
         <param name="nodeName">/wrapper_ros_full</param>
         <param name="imageTopicName">/camera_full/image_rect_color</param>
@@ -96,7 +97,7 @@
         </action>
         <action phase="shutdown" level="5" type="detach" />
     </device>
-
+-->
 
     <!-- ROS 2 Wrappers -->
 <!--
@@ -123,7 +124,9 @@
         </action>
         <action phase="shutdown" level="5" type="detach" />
     </device>
+-->
 
+<!--
     <device name="wrapper_ros2_full" type="frameGrabber_nws_ros2">
         <param name="nodeName">/wrapper_ros2_full</param>
         <param name="imageTopicName">/camera_full/image_rect_color</param>
@@ -135,5 +138,5 @@
         </action>
         <action phase="shutdown" level="5" type="detach" />
     </device>
-    -->
+-->
 </devices>
