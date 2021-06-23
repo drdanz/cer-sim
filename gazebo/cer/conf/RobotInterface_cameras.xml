@@ -100,7 +100,6 @@
 -->
 
     <!-- ROS 2 Wrappers -->
-<!--
     <device name="wrapper_ros2_left" type="frameGrabber_nws_ros2">
         <param name="nodeName">/wrapper_ros2_left</param>
         <param name="imageTopicName">/camera_left/image_rect_color</param>
@@ -113,6 +112,7 @@
         <action phase="shutdown" level="5" type="detach" />
     </device>
 
+<!--
     <device name="wrapper_ros2_right" type="frameGrabber_nws_ros2">
         <param name="nodeName">/wrapper_ros2_right</param>
         <param name="imageTopicName">/camera_right/image_rect_color</param>
