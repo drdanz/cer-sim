@@ -112,7 +112,6 @@
         <action phase="shutdown" level="5" type="detach" />
     </device>
 
-<!--
     <device name="wrapper_ros2_right" type="frameGrabber_nws_ros2">
         <param name="nodeName">/wrapper_ros2_right</param>
         <param name="imageTopicName">/camera_right/image_rect_color</param>
@@ -124,7 +123,6 @@
         </action>
         <action phase="shutdown" level="5" type="detach" />
     </device>
--->
 
 <!--
     <device name="wrapper_ros2_full" type="frameGrabber_nws_ros2">
